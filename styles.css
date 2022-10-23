@@ -6,6 +6,9 @@
 main {
   background-color: rgb(6, 2, 2);
   width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+
 }
 
 .carousel {
@@ -26,8 +29,8 @@ p {
 }
 
 footer {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  justify-content: flex end;
   padding: 3em 0;
   text-align: center;
   width: 100%;
